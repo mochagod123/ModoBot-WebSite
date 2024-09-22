@@ -1,0 +1,11 @@
+<html lang="ja">
+  <head>
+    <title>Guild Rule</title>
+  </head>
+
+  <p id="rules">Error!</p><br>
+  <script>
+    var rule = location.search;
+    document.getElementById('rules').innerText = `${rule.replace("?", '')}`;
+  </script>
+</html>
